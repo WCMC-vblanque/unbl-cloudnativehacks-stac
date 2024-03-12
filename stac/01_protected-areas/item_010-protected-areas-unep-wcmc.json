@@ -43,19 +43,19 @@
     "links": [
       {
         "rel": "collection",
-        "href": "./collection_01-protected-areas.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
+        "href": "./collection_01-protected-areas.json",
         "type": "application/json",
         "title": "01 - Protected Areas"
       },
       {
         "rel": "root",
-        "href": "./collection_01-protected-areas.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
+        "href": "./collection_01-protected-areas.json",
         "type": "application/json",
         "title": "01 - Protected Areas"
       },
       {
         "rel": "parent",
-        "href": "./collection_01-protected-areas.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
+        "href": "./collection_01-protected-areas.json",
         "type": "application/json",
         "title": "01 - Protected Areas"
       }
