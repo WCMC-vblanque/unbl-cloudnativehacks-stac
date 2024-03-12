@@ -16,12 +16,13 @@
       },
       {
         "name": "UNBL",
-        "description": "UN Biodiversity Lab",
+        "description": "UN Biodiversity Lab - ",
         "roles": [
           "host"        
         ],
         "url": "mailto:cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com",
-        "email": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com"
+        "email": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com",
+        "contact": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com"
       
       }
     ],
