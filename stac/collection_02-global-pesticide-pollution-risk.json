@@ -39,9 +39,9 @@
     "links": [
       {
         "rel": "root",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/stac_catalog.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "STAC Catalog"
       },
       {
         "rel": "item",
