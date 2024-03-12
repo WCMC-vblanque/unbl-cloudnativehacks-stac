@@ -1,0 +1,121 @@
+{
+    "stac_version": "1.0.0",
+    "stac_extensions": [],
+    "type": "Feature",
+    "id": "country-boundaries-natural-earth",
+    "bbox": [
+      -180,
+      -90,
+      180,
+      90
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -180,
+            -90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "datetime": "2020-05-12T00:00:00.000Z"
+    },
+    "collection": "collection_00-country-boundaries",
+    "links": [
+      {
+        "rel": "collection",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_00-country-boundaries.json",
+        "type": "application/json",
+        "title": "Country Boundaries Collection"
+      },
+      {
+        "rel": "root",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_00-country-boundaries.json",
+        "type": "application/json",
+        "title": "Country Boundaries Collection"
+      },
+      {
+        "rel": "parent",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_00-country-boundaries.json",
+        "type": "application/json",
+        "title": "Country Boundaries Collection"
+      }
+    ],
+    "assets": {
+      "data-geoparquet": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/00_country-boundaries/ne_10m_admin_0_countries_wgs84.parquet",
+        "type": "application/vnd.apache.parquet",
+        "title": "Country Boundaries as (geo)parquet",
+        "roles": [
+          "data"
+        ]
+      },
+      "data-geoarrow": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/00_country-boundaries/ne_10m_admin_0_countries_no-multipolygons-singlepart_wgs84.arrow",
+        "type": "application/vnd.apache.arrow.file",
+        "title": "Country Boundaries as (geo)arrow",
+        "roles": [
+          "data"
+        ]
+      },
+      "data-geoarrow-stream": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/00_country-boundaries/ne_10m_admin_0_countries_no-multipolygons-singlepart_stream_wgs84.arrows",
+        "type": "application/vnd.apache.arrow.stream",
+        "title": "Country Boundaries as (geo)arrow stream",
+        "roles": [
+          "data"
+        ]
+      },
+      "data-flatgeobuf-singlepart": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/00_country-boundaries/ne_10m_admin_0_countries_no-multipolygon-singlepart_wgs84.fgb",
+        "type": "application/octet-stream",
+        "title": "Country Boundaries as FlatGeobuf (singlepart)",
+        "roles": [
+          "data"
+        ]
+      },
+      "data-flatgeobuf-multipolygon": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/00_country-boundaries/ne_10m_admin_0_countries_wgs84_multipolygon.fgb",
+        "type": "application/octet-stream",
+        "title": "Country Boundaries as FlatGeobuf (multipolygon)",
+        "roles": [
+          "data"
+        ]
+      },
+      "thumbnail": {
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/00_country-boundaries/country_boundaries.png",
+        "title": "Thumbnail",
+        "type": "image/png",
+        "roles": [
+          "thumbnail"
+        ]
+      },
+      "overview": {
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/00_country-boundaries/country_boundaries_overview.tif",
+        "title": "Overview",
+        "type": "image/tif",
+        "roles": [
+          "overview"
+        ]
+      }
+    }
+  }

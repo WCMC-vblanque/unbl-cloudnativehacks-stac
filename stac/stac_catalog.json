@@ -1,0 +1,32 @@
+{
+    "stac_version": "1.0.0",
+    "type": "Catalog",
+    "id": "unbl-cloud-native-hacks-catalog",
+    "title": "STAC Catalogue Cloud Native Hacks",
+    "description": "This catalog lists various geospatial datasets from our organization.",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/stac_catalog.json" 
+      },
+      {
+        "rel": "root",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/"  
+      },
+      {
+        "rel": "child",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_00-country-boundaries.json",
+        "title": "00 - Country Boundaries"
+      },      
+      {
+        "rel": "child",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_01-protected-areas.json",
+        "title": "01 - Protected Areas"
+      },      
+      {
+        "rel": "child",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "title": "02 - Global Pesticide"
+      }      
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "id": "01-protected-areas",
+    "type": "Collection",    
+    "stac_version": "1.0.0",
+    "description": "Protected Areas by UNEP-WCMC",
+    "title": "01 - Protected Areas",
+    "providers": [
+      {
+        "name": "Protected Planet (UNEP-WCMC)",
+        "description": "Protected Planet is the authoritative source of data on protected areas and other effective .",
+        "roles": [
+          "processor",
+          "licensor",
+          "host"
+        ],
+        "url": "https://www.protectedplanet.net"
+      }
+    ],
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            -180,
+            -90,
+            180,
+            90
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2000-01-01T00:00:00.000Z",
+            "2024-03-31T00:00:00.000Z"
+          ]
+        ]
+      }
+    },
+    "license": "various",    
+    "links": [
+      {
+        "rel": "root",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_01-protected-areas.json",
+        "type": "application/json",
+        "title": "01 - Protected Areas"
+      },
+      {
+        "rel": "item",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/01_protected-areas/item_010-protected-areas-unep-wcmc.json",
+        "type": "application/json",
+        "title": "Protected Areas by UNEP-WCMC"
+      },
+      {
+        "rel": "self",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_01-protected-areas.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "license",
+        "type": "text/html",
+        "href": "https://www.protectedplanet.net/en/legal",
+        "title": "Legal / Protected Planet Terms & Conditions"
+      }
+    ]
+  }
