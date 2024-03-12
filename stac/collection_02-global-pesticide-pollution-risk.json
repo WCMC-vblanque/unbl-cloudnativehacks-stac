@@ -50,6 +50,12 @@
         "title": "Global Pesticide Risk Score"
       },
       {
+        "rel": "item",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/item_021-global-active-ingredient-counts.json",
+        "type": "application/json",
+        "title": "Global Active Ingredient Counts"
+      },      
+      {
         "rel": "self",
         "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
         "type": "application/json"
