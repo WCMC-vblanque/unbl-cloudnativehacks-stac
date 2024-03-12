@@ -1,0 +1,88 @@
+{
+    "stac_version": "1.0.0",
+    "stac_extensions": [],
+    "type": "Feature",
+    "id": "item_021-global-active-ingredient-counts",
+    "bbox": [
+      -180,
+      -90,
+      180,
+      90
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -180,
+            -90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "datetime": "2021-01-01T00:00:00.000Z"
+    },
+    "collection": "collection_02-global-pesticide-pollution-risk",
+    "links": [
+      {
+        "rel": "collection",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "type": "application/json",
+        "title": "02 - Global Pesticide"
+      },
+      {
+        "rel": "root",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "type": "application/json",
+        "title": "02 - Global Pesticide"
+      },
+      {
+        "rel": "parent",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "type": "application/json",
+        "title": "02 - Global Pesticide"
+      }
+    ],
+    "assets": {
+      "data-tif": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/02_global-pesticide-pollution-risk/Global_active_ingredient_counts_cog.tif",
+        "type": "image/tif",
+        "title": "Global Active Ingredients Count COG",
+        "roles": [
+          "data"
+        ]
+      },
+      "thumbnail": {
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/global-active-ingredients-count_thumbnail.png",
+        "title": "Thumbnail",
+        "type": "image/png",
+        "roles": [
+          "thumbnail"
+        ]
+      },
+      "overview": {
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/global-active-ingredients-count_overview.tif",
+        "type": "image/tif",
+        "roles": [
+          "overview"
+        ]
+      }
+    }
+  }
