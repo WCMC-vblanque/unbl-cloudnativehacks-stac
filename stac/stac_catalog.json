@@ -7,7 +7,7 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/stac_catalog.json" 
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/stac_catalog.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ" 
       },
       {
         "rel": "root",
@@ -15,17 +15,17 @@
       },
       {
         "rel": "child",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_00-country-boundaries.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_00-country-boundaries.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
         "title": "00 - Country Boundaries"
       },      
       {
         "rel": "child",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_01-protected-areas.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_01-protected-areas.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
         "title": "01 - Protected Areas"
       },      
       {
         "rel": "child",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
         "title": "02 - Global Pesticide"
       }      
     ]

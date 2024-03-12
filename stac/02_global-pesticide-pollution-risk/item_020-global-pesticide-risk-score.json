@@ -43,19 +43,19 @@
     "links": [
       {
         "rel": "collection",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
         "type": "application/json",
         "title": "02 - Global Pesticide"
       },
       {
         "rel": "root",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
         "type": "application/json",
         "title": "02 - Global Pesticide"
       },
       {
         "rel": "parent",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json?token=GHSAT0AAAAAACPJKL75O6NTJQFQU3B4JDOAZPQTLFQ",
         "type": "application/json",
         "title": "02 - Global Pesticide"
       }
