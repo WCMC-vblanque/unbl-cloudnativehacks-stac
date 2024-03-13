@@ -111,18 +111,18 @@
       },
       "style-qml": {
         "href": "https://cloudnativehacks.blob.core.windows.net/data/06_protected-connected-index/protected_connected_index_by-ecoregion_2021_wgs84.qml",
-        "title": "Thumbnail",
+        "title": "Style as QML for QGIS",
         "type": "application/xml",
         "roles": [
-          "thumbnail"
+          "metadata"
         ]
       },
       "style-sld": {
         "href": "https://cloudnativehacks.blob.core.windows.net/data/06_protected-connected-index/protected_connected_index_by-ecoregion_2021_wgs84.sld",
-        "title": "Thumbnail",
+        "title": "Style as SLD",
         "type": "application/vnd.ogc.sld+xml",
         "roles": [
-          "thumbnail"
+          "metadata"
         ]
       },
       "thumbnail": {
