@@ -2,7 +2,7 @@
     "stac_version": "1.0.0",
     "stac_extensions": [],
     "type": "Feature",
-    "id": "item_020-global-pesticide-risk-score",
+    "id": "item_070-global-significance-for-restoration",
     "bbox": [
       -180,
       -90,
@@ -39,38 +39,38 @@
     "properties": {
       "datetime": "2021-01-01T00:00:00.000Z"
     },
-    "collection": "collection_02-global-pesticide-pollution-risk",
+    "collection": "collection_07-global-significance-for-restoration",
     "links": [
       {
         "rel": "collection",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_07-global-significance-for-restoration.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "07 - Global Significance For Restoration"
       },
       {
         "rel": "root",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_07-global-significance-for-restoration.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "07 - Global Significance For Restoration"
       },
       {
         "rel": "parent",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_07-global-significance-for-restoration.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "07 - Global Significance For Restoration"
       }
     ],
     "assets": {
       "data-tif": {
-        "href": "https://cloudnativehacks.blob.core.windows.net/data/02_global-pesticide-pollution-risk/Global_pesticide_risk_scores_cog.tif",
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/07_global-significance-for-restoration/global-significance-for-restoration_32bits_wgs84_cog.tif",
         "type": "image/tif",
-        "title": "Global Pesticide Risk Score COG",
+        "title": "Areas of Global Significance for Restoration COG",
         "roles": [
           "data"
         ]
       },
       "thumbnail": {
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/global-pesticide-risk-score_thumbnail.png",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/07_global-significance-for-restoration/global-significance-for-restoration_thumbnail.png",
         "title": "Thumbnail",
         "type": "image/png",
         "roles": [
@@ -78,7 +78,7 @@
         ]
       },
       "overview": {
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/global-pesticide-risk-score_overview.tif",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/07_global-significance-for-restoration/global-significance-for-restoration_overview.tif",
         "type": "image/tif",
         "roles": [
           "overview"
