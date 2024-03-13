@@ -101,6 +101,30 @@
           "data"
         ]
       },
+      "data-fgb": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/06_protected-connected-index/protected_connected_index_by-ecoregion_2021_wgs84.fgb",
+        "type": "application/octet-stream",
+        "title": "Protected Connected Index 2021 by Ecoregion as FlatGeobuff",
+        "roles": [
+          "data"
+        ]
+      },
+      "style-qml": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/06_protected-connected-index/protected_connected_index_by-ecoregion_2021_wgs84.qml",
+        "title": "Thumbnail",
+        "type": "application/xml",
+        "roles": [
+          "thumbnail"
+        ]
+      },
+      "style-sld": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/06_protected-connected-index/protected_connected_index_by-ecoregion_2021_wgs84.sld",
+        "title": "Thumbnail",
+        "type": "application/vnd.ogc.sld+xml",
+        "roles": [
+          "thumbnail"
+        ]
+      },
       "thumbnail": {
         "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/06_protected-area-connectivity/protected-area-connectivity_thumbnail.png",
         "title": "Thumbnail",
