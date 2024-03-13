@@ -61,7 +61,7 @@
       }
     ],
     "assets": {
-      "data-tif": {
+      "data-tif-2000": {
         "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2000_cog.tif",
         "type": "image/tif",
         "title": "BHI 2000 COG",
@@ -69,8 +69,7 @@
           "data"
         ]
       },
-    "assets": {
-      "data-tif": {
+      "data-tif-2005": {
         "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2005_cog.tif",
         "type": "image/tif",
         "title": "BHI 2005 COG",
@@ -78,8 +77,7 @@
           "data"
         ]
       },
-    "assets": {
-      "data-tif": {
+      "data-tif-2010": {
         "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2010_cog.tif",
         "type": "image/tif",
         "title": "BHI 2010 COG",
@@ -87,8 +85,7 @@
           "data"
         ]
       },
-    "assets": {
-      "data-tif": {
+      "data-tif-2015": {
         "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2015_cog.tif",
         "type": "image/tif",
         "title": "BHI 2015 COG",
@@ -96,8 +93,7 @@
           "data"
         ]
       },
-    "assets": {
-      "data-tif": {
+      "data-tif-2020": {
         "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2020_cog.tif",
         "type": "image/tif",
         "title": "BHI 2020 COG",
