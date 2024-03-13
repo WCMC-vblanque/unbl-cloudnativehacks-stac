@@ -2,10 +2,10 @@
     "stac_version": "1.0.0",
     "stac_extensions": [],
     "type": "Feature",
-    "id": "item_020-global-pesticide-risk-score",
+    "id": "item_005-global-surface-water.json",
     "bbox": [
       -180,
-      -90,
+      -60,
       180,
       90
     ],
@@ -15,7 +15,7 @@
         [
           [
             -180,
-            -90
+            -60
           ],
           [
             -180,
@@ -27,50 +27,50 @@
           ],
           [
             180,
-            -90
+            -60
           ],
           [
             -180,
-            -90
+            -60
           ]
         ]
       ]
     },
     "properties": {
-      "datetime": "2021-01-01T00:00:00.000Z"
+      "datetime": "2022-11-07T00:00:00.000Z"
     },
-    "collection": "collection_02-global-pesticide-pollution-risk",
+    "collection": "collection_05-global-surface-water",
     "links": [
       {
         "rel": "collection",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_05-global-surface-water.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "05 - Global Surface Water"
       },
       {
         "rel": "root",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_05-global-surface-water.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "05 - Global Surface Water"
       },
       {
         "rel": "parent",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_05-global-surface-water.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "05 - Global Surface Water"
       }
     ],
     "assets": {
-      "data-tif": {
-        "href": "https://cloudnativehacks.blob.core.windows.net/data/02_global-pesticide-pollution-risk/Global_pesticide_risk_scores_cog.tif",
+      "data-tif-transitions": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/05_global-surface-water/GSWE-aggregated-latest_transitions_cog.tif",
         "type": "image/tif",
-        "title": "Global Pesticide Risk Score COG",
+        "title": "Global Surface Water Transitions 1984-2021 (latest) COG",
         "roles": [
           "data"
         ]
       },
       "thumbnail": {
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/global-pesticide-risk-score_thumbnail.png",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/05_global-surface-water/global-surface-water-transitions_thumbnail.png",
         "title": "Thumbnail",
         "type": "image/png",
         "roles": [
@@ -78,7 +78,7 @@
         ]
       },
       "overview": {
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/global-pesticide-risk-score_overview.tif",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/05_global-surface-water/global-surface-water-transitions_overview.tif",
         "type": "image/tif",
         "roles": [
           "overview"

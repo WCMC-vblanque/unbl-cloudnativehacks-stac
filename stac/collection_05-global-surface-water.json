@@ -1,28 +1,30 @@
 {
-    "id": "02-global-pesticide-pollution-risk",
+    "id": "05_global-surface-water",
     "type": "Collection",    
     "stac_version": "1.0.0",
-    "description": "Global Pesticide Pollution Risk",
-    "title": "02 - Global Pesticide Pollution Risk",
+    "description": "The Global Surface Water Transitions map tracks changes in water bodies (2000-2018), including new, lost, and shifting permanent and seasonal water surfaces. It highlights both natural and human-caused changes, offering insights into water availability fluctuations.",
+    "title": "05 - Global Surface Water",
     "providers": [
       {
-        "name": "Global pesticide pollution risk",
-        "description": "Five global maps are included in this data set: (1) the pesticide risk scores map showing the exposure of agricultural land to pesticide pollution, (2) the active ingredient counts map quantifying the number of active ingredients posing pollution risk to agricultural land and showing the exposure of environment to pesticide mixtures, (3) the regions of concern map identifying areas susceptible to pesticide pollution, (4) the data certainty index resulting from parameter sensitivity analysis, and (5) the data quality index showing the quality of the estimates.",
+        "name": "Joint Research Centre - European Commission",
+        "description": "The Joint Research Centre is the European Commission's in-house science and knowledge service. It provides scientific and technical support to policies and decision-making within the European Union. The JRC focuses on a wide range of research areas, including agriculture, environment, energy, transport, health, and more. It aims to contribute to the development, implementation, and monitoring of EU policies by providing independent scientific and technical expertise. The JRC plays a crucial role in ensuring that EU policies are based on sound scientific evidence and research.",
         "roles": [
           "processor",
           "licensor"
         ],
-        "url": "mailto:fiona.tang@sydney.edu.au"
+		"contact":"JRC Surface Water team",
+        "email": "jrc-surfacewater@ec.europa.eu",
+		"url":"https://global-surface-water.appspot.com/download"
       },
       {
-        "name": "UNBL",
-        "description": "UN Biodiversity Lab - Contact: <a href='mailto:cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com'>Slack</a>",
+        "name": "UN Biodiversity Lab (UNBL)",
+        "description": "The UN Biodiversity Lab (UNBL) is a cutting-edge platform providing spatial data and analytics to support biodiversity conservation and sustainable development decision-making. It empowers governments, organizations, and researchers with high-resolution maps on biodiversity, ecosystems, and essential life support areas.  The UNBL aims to bridge the gap between data and action by offering actionable insights on the state of nature. This initiative plays a crucial role in safeguarding global biodiversity and achieving the UN's Sustainable Development Goals (SDGs).",
         "roles": [
           "host"        
         ],
-        "url": "mailto:cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com",
         "contact": "UNBL via Slack",
-        "email": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com"
+        "email": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com",
+        "url": "https://map.unbiodiversitylab.org/earth"
       }
     ],
     "extent": {
@@ -30,7 +32,7 @@
         "bbox": [
           [
             -180,
-            -90,
+            -60,
             180,
             90
           ]
@@ -39,13 +41,13 @@
       "temporal": {
         "interval": [
           [
-            "2021-01-01T00:00:00.000Z",
+            "2022-11-07T00:00:00.000Z",
             null
           ]
         ]
       }
     },
-    "license": "CC-BY-4.0",    
+    "license": "various",    
     "links": [
       {
         "rel": "root",
@@ -55,20 +57,20 @@
       },
       {
         "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/item_020-global-pesticide-risk-score.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/05_global-surface-water/item_005-global-surface-water.json",
         "type": "application/json",
-        "title": "Global Pesticide Risk Score"
-      },
-      {
-        "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/item_021-global-active-ingredient-counts.json",
-        "type": "application/json",
-        "title": "Global Active Ingredient Counts"
+        "title": "Global Surface Water"
       },      
       {
         "rel": "self",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_05-global-surface-water.json",
         "type": "application/json"
+      },
+      {
+        "rel": "license",
+        "type": "text/html",
+        "href": "http://www.copernicus.eu/main/data-access/",
+        "title": "Copernicus Regulation"
       }
     ]
   }

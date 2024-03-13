@@ -13,18 +13,18 @@
           "licensor"
         ],
 		"contact":"Tom Harwood",
-        "email": "mailto:Tom.Harwood@csiro.au",
+        "email": "Tom.Harwood@csiro.au",
 		"url":"https://data.csiro.au/collection/csiro:54237?q=BHI&_st=keyword&_str=1&_si=1"
       },
       {
         "name": "UNBL",
-        "description": "UN Biodiversity Lab - Contact: <a href='mailto:cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com'>Slack</a>",
+        "description": "UN Biodiversity Lab",
         "roles": [
           "host"        
         ],
-        "url": "mailto:cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com",
         "contact": "UNBL via Slack",
-        "email": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com"
+        "email": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com",
+        "url": "https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=28.3075467,-78.8102109,1&layers=biodiversity-habitat-index-2000-2020-v2-30s-global-time-series_100"
       }
     ],
     "extent": {

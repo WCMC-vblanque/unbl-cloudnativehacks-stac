@@ -1,28 +1,30 @@
 {
-    "id": "02-global-pesticide-pollution-risk",
+    "id": "05_global-surface-water",
     "type": "Collection",    
     "stac_version": "1.0.0",
-    "description": "Global Pesticide Pollution Risk",
-    "title": "02 - Global Pesticide Pollution Risk",
+    "description": "",
+    "title": "05 - Global Surface Water",
     "providers": [
       {
-        "name": "Global pesticide pollution risk",
-        "description": "Five global maps are included in this data set: (1) the pesticide risk scores map showing the exposure of agricultural land to pesticide pollution, (2) the active ingredient counts map quantifying the number of active ingredients posing pollution risk to agricultural land and showing the exposure of environment to pesticide mixtures, (3) the regions of concern map identifying areas susceptible to pesticide pollution, (4) the data certainty index resulting from parameter sensitivity analysis, and (5) the data quality index showing the quality of the estimates.",
+        "name": "",
+        "description": "",
         "roles": [
           "processor",
           "licensor"
         ],
-        "url": "mailto:fiona.tang@sydney.edu.au"
+		"contact":"",
+        "email": "",
+		"url":""
       },
       {
         "name": "UNBL",
-        "description": "UN Biodiversity Lab - Contact: <a href='mailto:cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com'>Slack</a>",
+        "description": "UN Biodiversity Lab",
         "roles": [
           "host"        
         ],
-        "url": "mailto:cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com",
         "contact": "UNBL via Slack",
-        "email": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com"
+        "email": "cloud-native-hacks-aaaamjzzuyzpkclta7x7wfh5iu@wcmc.slack.com",
+        "url": "https://map.unbiodiversitylab.org/earth"
       }
     ],
     "extent": {
@@ -39,7 +41,7 @@
       "temporal": {
         "interval": [
           [
-            "2021-01-01T00:00:00.000Z",
+            "2022-06-15T00:00:00.000Z",
             null
           ]
         ]
@@ -55,19 +57,13 @@
       },
       {
         "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/item_020-global-pesticide-risk-score.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/04_biodiversity-habitat-index/item_040-biodiversity-habitat-index.json",
         "type": "application/json",
-        "title": "Global Pesticide Risk Score"
-      },
-      {
-        "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/item_021-global-active-ingredient-counts.json",
-        "type": "application/json",
-        "title": "Global Active Ingredient Counts"
+        "title": "Biodiversity Habitat Index"
       },      
       {
         "rel": "self",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_04-biodiversity-habitat-index.json",
         "type": "application/json"
       }
     ]
