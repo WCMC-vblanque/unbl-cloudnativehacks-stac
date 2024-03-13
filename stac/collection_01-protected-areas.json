@@ -40,9 +40,9 @@
     "links": [
       {
         "rel": "root",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_01-protected-areas.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/stac_catalog.json",
         "type": "application/json",
-        "title": "01 - Protected Areas"
+        "title": "STAC Catalog"
       },
       {
         "rel": "item",
