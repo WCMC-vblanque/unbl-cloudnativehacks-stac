@@ -57,9 +57,9 @@
       },
       {
         "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/06_protected-area-connectivity/item_060-protected-area-connectivity.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/06_protected-area-connectivity/item_060-protected-area-connectivity-by-ecoregion.json",
         "type": "application/json",
-        "title": "06 Protected Area Connectivity"
+        "title": "060 Protected Area Connectivity by Ecoregion"
       },      
       {
         "rel": "self",
