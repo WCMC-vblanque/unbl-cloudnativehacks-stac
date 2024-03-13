@@ -15,7 +15,7 @@
         [
           [
             -180,
-            -90
+            -60
           ],
           [
             -180,
@@ -27,50 +27,86 @@
           ],
           [
             180,
-            -90
+            -60
           ],
           [
             -180,
-            -90
+            -60
           ]
         ]
       ]
     },
     "properties": {
-      "datetime": "2021-01-01T00:00:00.000Z"
+      "datetime": "2022-06-15T00:00:00.000Z"
     },
-    "collection": "collection_02-global-pesticide-pollution-risk",
+    "collection": "collection_04-biodiversity-habitat-index.json",
     "links": [
       {
         "rel": "collection",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_04-biodiversity-habitat-index.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "04 - Biodiversity Habitat Index"
       },
       {
         "rel": "root",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_04-biodiversity-habitat-index.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "04 - Biodiversity Habitat Index"
       },
       {
         "rel": "parent",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_02-global-pesticide-pollution-risk.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_04-biodiversity-habitat-index.json",
         "type": "application/json",
-        "title": "02 - Global Pesticide"
+        "title": "04 - Biodiversity Habitat Index"
       }
     ],
     "assets": {
       "data-tif": {
-        "href": "https://cloudnativehacks.blob.core.windows.net/data/02_global-pesticide-pollution-risk/Global_pesticide_risk_scores_cog.tif",
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2000_cog.tif",
         "type": "image/tif",
-        "title": "Global Pesticide Risk Score COG",
+        "title": "BHI 2000 COG",
+        "roles": [
+          "data"
+        ]
+      },
+    "assets": {
+      "data-tif": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2005_cog.tif",
+        "type": "image/tif",
+        "title": "BHI 2005 COG",
+        "roles": [
+          "data"
+        ]
+      },
+    "assets": {
+      "data-tif": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2010_cog.tif",
+        "type": "image/tif",
+        "title": "BHI 2010 COG",
+        "roles": [
+          "data"
+        ]
+      },
+    "assets": {
+      "data-tif": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2015_cog.tif",
+        "type": "image/tif",
+        "title": "BHI 2015 COG",
+        "roles": [
+          "data"
+        ]
+      },
+    "assets": {
+      "data-tif": {
+        "href": "https://cloudnativehacks.blob.core.windows.net/data/04_biodiversity-habitat-index/BILBI_P_BHIv2_Habitat_2020_cog.tif",
+        "type": "image/tif",
+        "title": "BHI 2020 COG",
         "roles": [
           "data"
         ]
       },
       "thumbnail": {
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/global-pesticide-risk-score_thumbnail.png",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/04_biodiversity-habitat-index/biodiversity-habitat-index_thumbnail.png",
         "title": "Thumbnail",
         "type": "image/png",
         "roles": [
@@ -78,7 +114,7 @@
         ]
       },
       "overview": {
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/global-pesticide-risk-score_overview.tif",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/02_global-pesticide-pollution-risk/biodiversity-habitat-index_overview.tif",
         "type": "image/tif",
         "roles": [
           "overview"
