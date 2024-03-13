@@ -37,8 +37,10 @@
       ]
     },
     "properties": {
-      "datetime": "2022-11-07T00:00:00.000Z"
-    },
+      "datetime": "2022-11-07T00:00:00.000Z",
+	  "citation":"Pekel, JF., Cottam, A., Gorelick, N. et al. High-resolution mapping of global surface water and its long-term changes. Nature 540, 418–422 (2016).",
+	  "DOI":"https://doi.org/10.1038/nature20584"    
+	  },
     "collection": "collection_05-global-surface-water",
     "links": [
       {
