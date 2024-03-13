@@ -1,20 +1,20 @@
 {
-    "id": "05_global-surface-water",
+    "id": "06_protected-area-connectivity",
     "type": "Collection",    
     "stac_version": "1.0.0",
-    "description": "",
-    "title": "05 - Global Surface Water",
+    "description": "The ProtConn indicator measures the percentage of protected land within each ecoregion that's functionally connected. It uses data from 2016 and assesses progress towards a UN biodiversity target on protected area connectivity.",
+    "title": "06 - Protected Area Connectivity",
     "providers": [
       {
-        "name": "",
-        "description": "",
+        "name": "Joint Research Centre - European Commission",
+        "description": "The Joint Research Centre is the European Commission's in-house science and knowledge service. It provides scientific and technical support to policies and decision-making within the European Union. The JRC focuses on a wide range of research areas, including agriculture, environment, energy, transport, health, and more. It aims to contribute to the development, implementation, and monitoring of EU policies by providing independent scientific and technical expertise. The JRC plays a crucial role in ensuring that EU policies are based on sound scientific evidence and research.",
         "roles": [
           "processor",
           "licensor"
         ],
-		"contact":"",
-        "email": "",
-		"url":""
+		"contact":"Grégoire DUBOIS",
+        "email": "Gregoire.DUBOIS@ec.europa.eu",
+		"url":"https://dopa.jrc.ec.europa.eu/dopa/"
       },
       {
         "name": "UNBL",
@@ -41,7 +41,7 @@
       "temporal": {
         "interval": [
           [
-            "2022-06-15T00:00:00.000Z",
+            "2021-01-01T00:00:00.000Z",
             null
           ]
         ]
@@ -57,13 +57,13 @@
       },
       {
         "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/04_biodiversity-habitat-index/item_040-biodiversity-habitat-index.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/06_protected-area-connectivity/item_060-protected-area-connectivity.json",
         "type": "application/json",
-        "title": "Biodiversity Habitat Index"
+        "title": "06 Protected Area Connectivity"
       },      
       {
         "rel": "self",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_04-biodiversity-habitat-index.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_06-protected-area-connectivity.json",
         "type": "application/json"
       }
     ]
