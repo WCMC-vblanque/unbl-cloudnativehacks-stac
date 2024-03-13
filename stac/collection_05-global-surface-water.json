@@ -57,7 +57,7 @@
       },
       {
         "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/05_global-surface-water/item_005-global-surface-water.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/05_global-surface-water/item_050-global-surface-water.json",
         "type": "application/json",
         "title": "Global Surface Water"
       },      
