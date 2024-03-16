@@ -1,20 +1,20 @@
 {
-    "id": "05_global-surface-water",
+    "id": "10_global-open-buildings",
     "type": "Collection",    
     "stac_version": "1.0.0",
     "description": "",
-    "title": "05 - Global Surface Water",
+    "title": "10 - Global Open Buildings",
     "providers": [
       {
-        "name": "",
-        "description": "",
+        "name": "_TDB_",
+        "description": "_TDB_",
         "roles": [
           "processor",
           "licensor"
         ],
-		"contact":"",
-        "email": "",
-		"url":""
+		"contact":"_TDB_",
+        "email": "_TDB_",
+		"url":"_TDB_"
       },
       {
         "name": "UNBL",
@@ -47,7 +47,7 @@
         ]
       }
     },
-    "license": "CC-BY-4.0",    
+    "license": "_TDB_",    
     "links": [
       {
         "rel": "root",
@@ -57,13 +57,13 @@
       },
       {
         "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/04_biodiversity-habitat-index/item_040-biodiversity-habitat-index.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/10_global-open-buildings/item_100-global-open-buildings.json",
         "type": "application/json",
-        "title": "Biodiversity Habitat Index"
+        "title": "Global Open Buildings"
       },      
       {
         "rel": "self",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_04-biodiversity-habitat-index.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_10-global-open-buildings.json",
         "type": "application/json"
       }
     ]

@@ -52,21 +52,26 @@
         "rel": "child",
         "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_07-global-significance-for-restoration.json",
         "title": "07 Global Significance For Restoration"
-      } ,      
+      },      
       {
         "rel": "child",
         "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_08-forest-structural-integrity-index.json",
         "title": "08 Forest Structural Integrity Index"
-      } ,      
+      },      
       {
         "rel": "child",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_09-global-open-buildings.json",
-        "title": "09 Global Open Buildings"
-      } ,      
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_09-biodiversity-intactness-index.json",
+        "title": "09 Biodiversity Intactness Index"
+      },      
       {
         "rel": "child",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_10-biodiversity-intactness-index.json",
-        "title": "10 Biodiversity Intactness Index"
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_10-global-open-buildings.json",
+        "title": "10 Global Open Buildings"
+      },      
+      {
+        "rel": "child",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_11-planet-nicfi.json",
+        "title": "11 Planet NICFI"
       }         
     ]
 }
