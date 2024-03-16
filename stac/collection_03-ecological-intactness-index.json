@@ -7,14 +7,14 @@
     "providers": [
       {
         "name": "The University of Queensland",
-        "description": "Beyer, Hawthorne, Venter, Oscar, Grantham, Hedley, and Watson, James(2019). Global assessment of ecoregion intactness. The University of Queensland. Data Collection.https://doi.org/10.14264/uql.2019.773",
+        "description": "Beyer, Hawthorne, Venter, Oscar, Grantham, Hedley, and Watson, James(2019). Global assessment of ecoregion intactness. The University of Queensland. Data Collection. https://doi.org/10.14264/uql.2019.773",
         "roles": [
           "processor",
           "licensor"
         ],
         "url": "mailto:data@library.uq.edu.au",
-		"contact":"Beyer, Hawthorne",
-		"email": "data@library.uq.edu.au",
+		"contact": "Beyer, Hawthorne",
+		"email":  "data@library.uq.edu.au"
       },
       {
         "name": "UNBL",
