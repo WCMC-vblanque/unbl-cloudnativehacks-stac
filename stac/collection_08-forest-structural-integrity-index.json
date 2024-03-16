@@ -1,20 +1,20 @@
 {
-    "id": "05_global-surface-water",
+    "id": "08_forest-structural-integrity-index",
     "type": "Collection",    
     "stac_version": "1.0.0",
-    "description": "",
-    "title": "05 - Global Surface Water",
+    "description": "_TBD_",
+    "title": "08 - Forest Structural Integrity Index",
     "providers": [
       {
-        "name": "",
-        "description": "",
+        "name": "_TBD_",
+        "description": "_TBD_",
         "roles": [
           "processor",
           "licensor"
         ],
-		"contact":"",
-        "email": "",
-		"url":""
+		"contact":"_TBD_",
+        "email": "_TBD_",
+		"url":"_TBD_"
       },
       {
         "name": "UNBL",
@@ -41,13 +41,13 @@
       "temporal": {
         "interval": [
           [
-            "2022-06-15T00:00:00.000Z",
+            "2022-06-15T00:00:00.000Z", 
             null
           ]
         ]
       }
     },
-    "license": "CC-BY-4.0",    
+    "license": "_TDB_",    
     "links": [
       {
         "rel": "root",
@@ -57,13 +57,14 @@
       },
       {
         "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/04_biodiversity-habitat-index/item_040-biodiversity-habitat-index.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/08_forest-structural-integrity-index/item_080-forest-structural-integrity-index.json",
         "type": "application/json",
-        "title": "Biodiversity Habitat Index"
+        "title": "Forest Structural Integrity Index"
       },      
       {
         "rel": "self",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_04-biodiversity-habitat-index.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_08-forest-structural-integrity-index.json
+",
         "type": "application/json"
       }
     ]
