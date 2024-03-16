@@ -63,8 +63,7 @@
       },      
       {
         "rel": "self",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_08-forest-structural-integrity-index.json
-",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/collection_08-forest-structural-integrity-index.json",
         "type": "application/json"
       }
     ]
