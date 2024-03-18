@@ -57,7 +57,7 @@
       },
       {
         "rel": "item",
-        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/03-ecological-intactness-index/item_030-ecological-intactness-index.json",
+        "href": "https://raw.githubusercontent.com/WCMC-vblanque/unbl-cloudnativehacks-stac/main/stac/03_ecological-intactness-index/item_030-ecological-intactness-index.json",
         "type": "application/json",
         "title": "Ecological Intactness Index"
       },    
