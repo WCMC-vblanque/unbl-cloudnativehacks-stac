@@ -2,7 +2,7 @@
     "id": "01-protected-areas",
     "type": "Collection",    
     "stac_version": "1.0.0",
-    "description": "Protected Areas by UNEP-WCMC",
+    "description": "to report the percentage coverage of terrestrial and marine areas covered by protected areas. (Target 3: Conserve 30% of Land, Waters and Seas.)",
     "title": "01 - Protected Areas",
     "providers": [
       {

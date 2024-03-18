@@ -2,7 +2,7 @@
     "id": "04_biodiversity-habitat-index",
     "type": "Collection",    
     "stac_version": "1.0.0",
-    "description": "The CSIRO Biodiversity Habitat Index (BHI v2) is a global tool measuring biodiversity based on ecosystem size, health, and connectivity. It tracks biodiversity changes over time, predicts species survival, and strategically prioritizes conservation efforts by analyzing ecosystem condition data.",
+    "description": "to monitor and report past-to-present trends in the expected persistence of species diversity by repeatedly recalculating the indicator using best-available mapping of ecosystem condition or integrity observed at multiple points in time, e.g., for different years (Goal A)",
     "title": "04 - Biodiversity Habitat Index",
     "providers": [
       {

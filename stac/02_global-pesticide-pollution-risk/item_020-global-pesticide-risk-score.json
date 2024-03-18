@@ -37,7 +37,10 @@
       ]
     },
     "properties": {
-      "datetime": "2021-01-01T00:00:00.000Z"
+      "datetime": "2021-01-01T00:00:00.000Z",
+	  "description": "Five global maps are included in this data set: (1) the pesticide risk scores map showing the exposure of agricultural land to pesticide pollution, (2) the active ingredient counts map quantifying the number of active ingredients posing pollution risk to agricultural land and showing the exposure of environment to pesticide mixtures, (3) the regions of concern map identifying areas susceptible to pesticide pollution, (4) the data certainty index resulting from parameter sensitivity analysis, and (5) the data quality index showing the quality of the estimates. This global pesticide risk scores map shows the exposure of agricultural land to pesticide pollution. Value range is from 0 (lowest exposure) to 6.1 (highest exposure). The resolution is 5 arc-min (10 km at the equator). Pixel resolution is 1681 by 4306. Pixel values for non-agricultural land (-1) and water (-2) have been excluded from visualization. ",
+	  "citation":"Tang F.H.M, Lenzen M., McBratney A., and Maggi F. (2021). Risk of pesticide pollution at the global scale, Nature Geoscience.",
+	  "DOI": "https://doi.org/10.6084/m9.figshare.10302218.v1"
     },
     "collection": "collection_02-global-pesticide-pollution-risk",
     "links": [

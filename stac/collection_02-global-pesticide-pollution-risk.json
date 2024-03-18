@@ -7,7 +7,7 @@
     "providers": [
       {
         "name": "Global pesticide pollution risk",
-        "description": "Five global maps are included in this data set: (1) the pesticide risk scores map showing the exposure of agricultural land to pesticide pollution, (2) the active ingredient counts map quantifying the number of active ingredients posing pollution risk to agricultural land and showing the exposure of environment to pesticide mixtures, (3) the regions of concern map identifying areas susceptible to pesticide pollution, (4) the data certainty index resulting from parameter sensitivity analysis, and (5) the data quality index showing the quality of the estimates.",
+        "description": "to report exposure of agricultural land to pesticide pollution. Value range is from 0 (lowest exposure) to 6.1 (highest exposure). (Target 7: Reduce Pollution to Levels That Are Not Harmful to Biodiversity.)",
         "roles": [
           "processor",
           "licensor"

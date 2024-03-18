@@ -2,7 +2,7 @@
     "id": "03-ecological-intactness-index",
     "type": "Collection",    
     "stac_version": "1.0.0",
-    "description": "Human activities are altering natural areas worldwide. While our ability to map these activities at fine scales is improving, a simplistic binary characterization of habitat and non-habitat with a focus on change in habitat extent has dominated conservation assessments across different spatial scales. Here, the authors provide a Ecological Intactness Index metric that captures both habitat loss, quality and fragmentation effects which, when combined, are called intactness.",
+    "description": "to capture both habitat loss, quality and fragmentation effects which, when combined, are called intactness. To identify areas that are a priority for retention of intact / wilderness areas. (Target 1: Plan and Manage all Areas To Reduce Biodiversity Loss.)",
     "title": "03 - Ecological Intactness Index",
     "providers": [
       {
